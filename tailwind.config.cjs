@@ -11,8 +11,8 @@ module.exports = {
         'specialyellow': '#D0EAC1'
       },
       fontFamily: {
-        'Alata': ['Alata','sans-serif'],
-        'Start': ['Press Start 2P','cursive']
+        'Alata': ['"Alata"','sans-serif'],
+        'Press': ['"Press Start 2P"', 'cursive']
       }
     }
   }
