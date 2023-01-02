@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <IconContext.Provider value={{color: "undefined"}}>
-      <div className='Navbar  bg-gradient-to-t from-specialyellow to-specialgreen h-20 flex justify-start items-center'>
+      <div className='Navbar bg-gradient-to-t from-specialyellow to-specialgreen h-20 flex justify-start items-center'>
         <Link to="#" className='menu-bars ml-8 text-3xl bg-none text-black'>
         <faIcons.FaBars onClick={showSidebar} />
         </Link>
@@ -26,14 +26,12 @@ const Navbar = () => {
           </li>
           {SidebarData.map((item, index) => {
             return (
-              
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
                     <span className='ml-[16px] font-Press text-l font-light'>{item.title}</span>
                     <span className='inline-block pl-2 text-xl'>{item.icons}</span>
                   </Link>
                 </li>
-              
             )
           })}
         </ul>
