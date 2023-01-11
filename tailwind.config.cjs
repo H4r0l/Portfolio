@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         'Alata': ['"Alata"','sans-serif'],
         'Press': ['"Press Start 2P"', 'cursive']
+      },
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
       }
     }
   }
